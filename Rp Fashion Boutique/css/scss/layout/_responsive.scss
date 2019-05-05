@@ -1,0 +1,136 @@
+@media screen and (max-width: 767px) {
+    .container{
+        .navegacion-movil{
+            margin-top: 8px;
+        }
+    }
+
+    h2{
+        font-size:30px;
+    }
+    p{
+        font-size:18px;
+    }
+
+    h3{
+        font-size:22px;
+    }
+    h4{
+        font-size:20px;
+    }
+    
+
+    
+    .main-temporada{
+        .acerca-de{  
+            .contenedor{
+                .foto{
+                    display:none;
+                } 
+            }
+            .contenedor-article{
+                article{ 
+                    position: relative;
+                    width: 100%;
+                    top:20px;
+                    transform:translate(0px, 0);
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }    
+        } 
+        
+        .colores{ 
+            margin-top: 50px;
+            
+        }
+        .colores-muestras{
+            .modal-dialog{
+                .modal-title{
+                    h2{
+                        font-size:25px;
+                    }
+                }
+            }
+            .modal-body{
+                p{
+                    font-size:12px;
+                }
+                h6{
+                    font-size:12px;
+                }
+            }  
+        }
+    }
+
+   
+    .container{
+        .tendencias{
+            .tendencias-img-principal{
+                img{  
+                    height: 200px;
+                    width: 250px;           
+                }        
+            }
+            .tendencias-imgs-secundarias{
+                img{ 
+                    height: 30px;
+                    width: 30px;
+                 }
+             }
+        }
+    }
+    
+
+    .main-mapa{
+        .mapa{
+            text-align: center; 
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        .header{
+            .logo{
+                img{
+                    width: 80%;
+                }
+            }
+        }
+        .navegacion-movil{
+            margin-top: 10px;
+        }
+    }
+    .main-mapa{
+        .mapa{
+            text-align: center;
+            iframe{
+                width: 270px;
+            } 
+        }
+    }
+}
+    
+
+@media screen and (max-width: 320px) {
+    .container{
+        .header{
+            .logo{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .main-mapa{
+        .mapa{
+            text-align: center;
+            iframe{
+                width: 240px;
+            } 
+        }
+    }
+}
+    

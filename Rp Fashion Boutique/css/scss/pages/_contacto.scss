@@ -1,0 +1,20 @@
+.main-mapa{
+    @include bg-color($bg-contenedor1);
+    .titulo-contacto{
+        text-align: left;
+        @include titles($title-font, $title-color);
+    }
+    
+    .formulario{
+        font-family: 'reallyAwesome';
+        button{
+            background-color: $bg-btn;
+            color: #fff;
+            &:hover{
+                background-color: $bg-btnHover;  
+            }
+        }
+    }
+
+}
+

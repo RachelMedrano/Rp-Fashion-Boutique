@@ -1,0 +1,36 @@
+.slider-femenino{
+    .slide{
+        padding: 0;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.main{
+    @include bg-color($bg-contenedor1);
+    .titulo{
+        @include titles($title-font, $title-color);
+        text-align: center;
+    }
+    .texto-femenino{
+        text-align: justify;
+        @include texts($text-font, $text-size, $text-color);
+    }
+}
+
+.tendencias{
+    @include bg-color($bg-contenedor2);
+    @include titles($title-font, $title-color);
+}
+
+.imgs{
+    img{
+    width: 100%;
+    opacity: .6;
+    &:hover{
+        transition: all .5s ease;
+        opacity: 1;
+        }
+    }  
+}
