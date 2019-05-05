@@ -1,0 +1,19 @@
+//footer
+.footer{
+    background-color: $bg-footer;
+    padding: 10px 0;
+    .redes-sociales{
+      text-align: center;
+      width: 100px; 
+      border-radius: 3px;
+      font-size: 30px;
+      margin:0 10px; 
+      a{
+        color: #db504a;
+       }
+      .facebook:hover{ color: #3b5998; }
+      .twitter:hover{ color: #1da1f2; }
+      .instagram:hover{ color: #ffdc80; }
+      .youtube:hover{ color: #cd201f; }
+    }
+}
